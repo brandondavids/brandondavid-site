@@ -16,7 +16,7 @@ export default function Hero() {
     const fade = Math.max(1 - scrollY / 500, 0);
 
     return (
-        <section className="min-h-screen bg-[#eeeee0] flex flex-col justify-between relative"
+        <section className="min-h-dvh bg-[#eeeee0] flex flex-col justify-between relative"
             style={{
                 background: "#eeeee0",
                 filter: `blur(${blur}px)`,
@@ -29,7 +29,7 @@ export default function Hero() {
                 </p>
             </div>
 
-            <div className="text-center mb-5 sm:-mb-3">
+            <div className="text-center mb-3 sm:-mb-3 pb-[env(safe-area-inset-bottom)]">
                 <p className="mt-6 font-poppins text-gray-600 tracking-tightxs">Gamer • Creator • Developer</p>
                 <h1 className="text-[80px] sm:text-[120px] md:text-[180px] font-bold leading-none font-poppins tracking-tightxs">davids</h1>
             </div>
