@@ -25,7 +25,7 @@ export default function Contact() {
 
             <div className="container mx-auto px-8 py-68 flex flex-col md:flex-row items-start justify-between gap-10">
                 <div className="max-w-2xl">
-                    <h2 className="text-6xl font-extrabold mb-4">contact me!</h2>
+                    <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4">contact me!</h2>
                     <p className="font-serifbrand text-xl opacity-80">always down to talk tech or memes.<br/>say hi anytime :)</p>
                 </div>
 
@@ -49,7 +49,7 @@ export default function Contact() {
 
             {/* centered footer line and copyright */}
             <div className="absolute bottom-0 left-0 w-full border-t border-gray-700">
-                <div className="container mx-auto px-8 py-6 text-gray-400">© 2025 Brandon David, All Rights Reserved</div>
+                <div className="container mx-auto px-8 py-6 text-gray-400 text-xs">© 2025 Brandon David, All Rights Reserved</div>
             </div>
         </section>
     )

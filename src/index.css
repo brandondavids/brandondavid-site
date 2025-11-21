@@ -19,5 +19,5 @@ h1 { line-height: 0.9; }
 
 /* small responsive tweaks */
 @media (max-width: 640px) {
-h1 { font-size: 6rem }
+  h1 { font-size: 6rem }
 }
