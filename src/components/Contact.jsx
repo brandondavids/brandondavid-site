@@ -49,7 +49,7 @@ export default function Contact() {
 
             {/* centered footer line and copyright */}
             <div className="absolute bottom-0 left-0 w-full border-t border-gray-700">
-                <div className="container mx-auto px-8 py-6 text-gray-400 text-xs">© 2025 Brandon David, All Rights Reserved</div>
+                <div className="container mx-auto px-8 py-6 text-gray-400 text-xs text-center">© 2025 Brandon David, All Rights Reserved</div>
             </div>
         </section>
     )
