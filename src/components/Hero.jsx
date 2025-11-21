@@ -24,14 +24,14 @@ export default function Hero() {
             }}>
 
             <div className="text-center px-6 pt-48">
-                <p className="font-serifbrand text-xl sm:text-2xl md:text-3xl max-w-4xl mx-auto leading-relaxed">
+                <p className="font-serifbrand text-xl sm:text-2xl md:text-3xl max-w-4xl tracking-tight mx-auto leading-relaxed">
                     I like figuring out how things work. Whether it's gaming, code, tools, or some random idea that shows up at 2 a.m. If something doesn't make sense, I'll probably poke at it until it does.
                 </p>
             </div>
 
             <div className="text-center -mb-1 sm:-mb-3 pb-[env(safe-area-inset-bottom)]">
-                <p className="mt-6 font-poppins text-gray-600 tracking-tightxs">Gamer • Creator • Developer</p>
-                <h1 className="text-[80px] sm:text-[120px] md:text-[180px] font-bold leading-none font-poppins tracking-tightxs">davids</h1>
+                <p className="mt-6 font-poppins text-gray-600 tracking-tighter">Gamer • Creator • Developer</p>
+                <h1 className="text-[80px] sm:text-[120px] md:text-[180px] font-bold leading-none font-poppins tracking-tighter">davids</h1>
             </div>
         </section>
     )
