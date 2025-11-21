@@ -31,7 +31,7 @@ export default function Contact() {
 
 
             <div className="w-full md:w-auto text-left md:text-right flex md:block flex-col items-start md:items-end space-y-4">
-                <a className="block text-xl font-semibold relative group" href="mailto:bdsinambela@gmail.com">
+                <a className="block text-xl font-semibold relative group" href="mailto:brdndvid@gmail.com">
                     Email
                     <span className="absolute left-0 -bottom-1 w-full h-[2px] bg-white scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
                 </a>
@@ -39,7 +39,7 @@ export default function Contact() {
                     Github
                     <span className="absolute left-0 -bottom-1 w-full h-[2px] bg-white scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
                 </a>
-                <a className="block text-xl font-semibold relative group" href="https://instagram.com/@ddviidd" target="_blank" rel="noreferrer">
+                <a className="block text-xl font-semibold relative group" href="https://instagram.com/ddviidd" target="_blank" rel="noreferrer">
                     Instagram
                     <span className="absolute left-0 -bottom-1 w-full h-[2px] bg-white scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
                 </a>
