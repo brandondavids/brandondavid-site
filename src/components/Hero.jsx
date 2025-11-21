@@ -29,7 +29,7 @@ export default function Hero() {
                 </p>
             </div>
 
-            <div className="text-center -mb-2 sm:-mb-3">
+            <div className="text-center mb-10 sm:-mb-3">
                 <p className="mt-6 font-poppins text-gray-600 tracking-tightxs">Gamer • Creator • Developer</p>
                 <h1 className="text-[80px] sm:text-[120px] md:text-[180px] font-bold leading-none font-poppins tracking-tightxs">davids</h1>
             </div>
