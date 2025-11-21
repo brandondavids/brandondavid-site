@@ -12,7 +12,6 @@ export default function Contact() {
             return () => window.removeEventListener("scroll", handleScroll);
         })
     
-    // Slide-up + fade
     const offset = Math.max(0, 300 - scrollY); 
     const opacity = Math.min(scrollY / 200, 1);
 
@@ -24,14 +23,14 @@ export default function Contact() {
                 transition: "transform 0.1s linear, opacity 0.1s linear",
             }}>
 
-            <div className="container mx-auto px-8 py-68 flex items-start justify-between">
+            <div className="container mx-auto px-8 py-68 flex flex-col md:flex-row items-start justify-between gap-10">
                 <div className="max-w-2xl">
                     <h2 className="text-6xl font-extrabold mb-4">contact me!</h2>
                     <p className="font-serifbrand text-xl opacity-80">always down to talk tech or memes.<br/>say hi anytime :)</p>
                 </div>
 
 
-            <div className="text-right space-y-4">
+            <div className="w-full md:w-auto text-left md:text-right flex md:block flex-col items-start md:items-end space-y-4">
                 <a className="block text-xl font-semibold relative group" href="mailto:bdsinambela@gmail.com">
                     Email
                     <span className="absolute left-0 -bottom-1 w-full h-[2px] bg-white scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>

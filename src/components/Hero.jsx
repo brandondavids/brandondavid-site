@@ -12,7 +12,6 @@ export default function Hero() {
         return () => window.removeEventListener("scroll", handleScroll);
     }, [])
 
-    // Animation values
     const blur = Math.min(scrollY / 40, 12);
     const fade = Math.max(1 - scrollY / 500, 0);
 
