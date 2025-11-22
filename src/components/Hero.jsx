@@ -49,10 +49,10 @@ export default function Hero() {
                 w-full flex justify-center pb-[env(safe-area-inset-bottom)]
                 md:absolute md:bottom-[-4vh] 
                 md:left-[-2vw] md:justify-start
-                text-[clamp(160px, 40vw, 260px)]
             ">
                 <h1 className="
                     font-serifbrand font-bold leading-none tracking-tighter
+                    text-[clamp(4rem,18vw,32rem)]
                 ">davids</h1>
             </div>
         </section>
