@@ -38,7 +38,7 @@ export default function Hero() {
                 md:text-right
             ">
                 <p className="
-                    font-poppins font-extralight sm:font-light
+                    font-serifbrand font-light
                     text-[clamp(1.2rem,2.2vw,3.4rem)]
                 ">
                     I like figuring out how things work. Whether it's gaming, code, tools, or some random idea that shows up at 2 a.m. If something doesn't make sense, I'll probably poke at it until it does.
@@ -47,11 +47,11 @@ export default function Hero() {
 
             <div className="
                 w-full flex justify-center pb-[env(safe-area-inset-bottom)]
-                md:absolute md:bottom-[-4vh] 
+                md:absolute md:bottom-[-2vh] 
                 md:left-[-2vw] md:justify-start
             ">
                 <h1 className="
-                    font-serifbrand font-bold leading-none tracking-tighter
+                    font-poppins font-semibold leading-none tracking-tighter
                     text-[clamp(4rem,18vw,32rem)]
                 ">davids</h1>
             </div>
