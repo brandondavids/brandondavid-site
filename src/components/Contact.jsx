@@ -16,40 +16,38 @@ export default function Contact() {
     const opacity = Math.min(scrollY / 200, 1);
 
     return (
-        <section className="min-h-screen bg-[#111] text-white relative -mt-[300px]"
+        <section className="min-h-dvh text-black relative -mt-[250px] flex flex-col items-center justify-center"
             style={{
                 transform: `translateY(${offset}px)`,
                 opacity,
                 transition: "transform 0.1s linear, opacity 0.1s linear",
             }}>
 
-            <div className="container mx-auto px-8 py-68 flex flex-col md:flex-row items-start justify-between gap-10">
-                <div className="max-w-2xl">
-                    <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4">contact me!</h2>
-                    <p className="font-serifbrand text-xl opacity-80">always down to talk tech or memes.<br/>say hi anytime :)</p>
+            <div className="text-center">
+                <h2 className="font-poppins text-[clamp(1.2rem,2.4vw,3rem)] tracking-tighter">
+                    Brandon David
+                </h2>
+
+                <p className="font-poppins text-[clamp(1.2rem,2.4vw,3rem)] tracking-tighter">
+                    brdndvid@gmail.com
+                </p>
+
+                <div className="pt-6 space-y-2">
+                    <a
+                        href="https://github.com/brandondavids"
+                        className="block text-[clamp(1.2rem,2.4vw,3rem)] underline underline-offset-4 font-poppins tracking-tighter"
+                        target="_blank"
+                    >
+                        Github
+                    </a>
+                    <a
+                        href="https://instagram.com/ddviidd"
+                        className="block text-[clamp(1.2rem,2.4vw,3rem)] underline underline-offset-4 font-poppins tracking-tighter"
+                        target="_blank"
+                    >
+                        Instagram
+                    </a>
                 </div>
-
-
-            <div className="w-full md:w-auto text-left md:text-right flex md:block flex-col items-start md:items-end space-y-4">
-                <a className="block text-xl font-semibold relative group" href="mailto:brdndvid@gmail.com">
-                    Email
-                    <span className="absolute left-0 -bottom-1 w-full h-[2px] bg-white scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
-                </a>
-                <a className="block text-xl font-semibold relative group" href="https://github.com/brandondavids" target="_blank" rel="noreferrer">
-                    Github
-                    <span className="absolute left-0 -bottom-1 w-full h-[2px] bg-white scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
-                </a>
-                <a className="block text-xl font-semibold relative group" href="https://instagram.com/ddviidd" target="_blank" rel="noreferrer">
-                    Instagram
-                    <span className="absolute left-0 -bottom-1 w-full h-[2px] bg-white scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
-                </a>
-                </div>
-            </div>
-
-
-            {/* centered footer line and copyright */}
-            <div className="absolute bottom-0 left-0 w-full border-t border-gray-700">
-                <div className="container mx-auto px-8 py-6 text-gray-400 text-xs text-center">© 2025 Brandon David, All Rights Reserved</div>
             </div>
         </section>
     )
