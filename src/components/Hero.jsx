@@ -38,7 +38,7 @@ export default function Hero() {
                 md:text-right
             ">
                 <p className="
-                    font-poppins font-light
+                    font-poppins font-extralight sm:font-light
                     text-[clamp(1.2rem,2.2vw,3.4rem)]
                 ">
                     I like figuring out how things work. Whether it's gaming, code, tools, or some random idea that shows up at 2 a.m. If something doesn't make sense, I'll probably poke at it until it does.
