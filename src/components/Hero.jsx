@@ -53,10 +53,6 @@ export default function Hero() {
                 <h1 className="
                     font-serifbrand font-bold leading-none tracking-tighter
                     text-[clamp(160px, 40vw, 260px)]
-                    sm:text-[350px]
-                    md:text-[480px]
-                    lg:text-[620px]
-                    xl:text-[760px]
                 ">davids</h1>
             </div>
         </section>
