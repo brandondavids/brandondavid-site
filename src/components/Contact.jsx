@@ -24,25 +24,25 @@ export default function Contact() {
             }}>
 
             <div className="text-center">
-                <h2 className="font-poppins text-[clamp(1.2rem,2.4vw,3rem)] tracking-tighter">
+                <h2 className="font-poppins text-[clamp(1.2rem,2.4vw,3rem)] tracking-tighter leading-tight">
                     Brandon David
                 </h2>
 
-                <p className="font-poppins text-[clamp(1.2rem,2.4vw,3rem)] tracking-tighter">
+                <p className="font-poppins text-[clamp(1.2rem,2.4vw,3rem)] tracking-tighter leading-tight">
                     brdndvid@gmail.com
                 </p>
 
                 <div className="pt-6 space-y-2">
                     <a
                         href="https://github.com/brandondavids"
-                        className="block text-[clamp(1.2rem,2.4vw,3rem)] underline underline-offset-4 decoration-[2px] font-poppins tracking-tighter"
+                        className="block text-[clamp(1.2rem,2.4vw,3rem)] underline underline-offset-4 decoration-[2px] font-poppins tracking-tighter leading-tight"
                         target="_blank"
                     >
                         Github
                     </a>
                     <a
                         href="https://instagram.com/ddviidd"
-                        className="block text-[clamp(1.2rem,2.4vw,3rem)] underline underline-offset-4 decoration-[2px] font-poppins tracking-tighter"
+                        className="block text-[clamp(1.2rem,2.4vw,3rem)] underline underline-offset-4 decoration-[2px] font-poppins tracking-tighter leading-tight"
                         target="_blank"
                     >
                         Instagram
