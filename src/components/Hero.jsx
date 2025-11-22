@@ -52,7 +52,7 @@ export default function Hero() {
             ">
                 <h1 className="
                     font-serifbrand font-bold leading-none tracking-tighter
-                    text-[clamp(4rem,18vw,32rem)]
+                    text-[clamp(6rem,22vw,45rem)]
                 ">davids</h1>
             </div>
         </section>
