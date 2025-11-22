@@ -32,7 +32,7 @@ export default function Hero() {
 
                 sm:max-w-[70%]
 
-                md:absolute md:top-[6vh]
+                md:absolute md:top-[4vh]
                 md:right-20
                 md:max-w-[540px]
                 md:text-right
