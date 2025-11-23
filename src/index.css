@@ -5,12 +5,3 @@ body {
 }
 
 .font-serifbrand { font-family: "Cormorant Garamond", Georgia, serif; }
-
-/* helper to ensure the big "davids" heading doesn't overflow weirdly */
-h1 { line-height: 0.9; }
-
-
-/* small responsive tweaks */
-@media (max-width: 640px) {
-  h1 { font-size: 6rem }
-}
