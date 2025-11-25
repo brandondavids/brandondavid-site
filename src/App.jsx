@@ -5,8 +5,8 @@ import Contact from './components/Contact';;
 export default function App() {
   return (
     <div className='font-poppins'>
-      <Hero />
-      <Contact />
+      {/* <Hero /> */}
+      {/* <Contact /> */}
     </div>
   )
 }
